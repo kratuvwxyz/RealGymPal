@@ -1,13 +1,13 @@
 # Real Gym Pal
 
-This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name, facebook ID and phone number of the user with the best overall match.
+This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name, Facebook ID and phone number of the user with the best overall match.
 
 ### How to use?
 
-- Provide your information like name you want to call, facebook ID and phone number before you start
-- Answer each questions according to your convienent and goals
+- Provide your information like a name you want to call, Facebook ID and phone number before you start
+- Answer each question according to your convenience and goals
 - Review before submit
-- wait few seconds to get your best match
+- wait a few seconds to get your best match
 
 
 ### File Structure
