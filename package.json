@@ -5,8 +5,8 @@
   "main": "server.js",
   "homepage": "https://kratuvwxyz.github.io/Real-Gym-Pal/",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run dist",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
