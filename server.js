@@ -1,20 +1,16 @@
-var express = require('express');
+const express = require("express");
 
-var bodyParser = require('body-parser');
+const app = express();
 
-var path = require('path');
+const PORT = process.env.PORT || 8080;
 
-var app = express();
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.static("public"));
 
-var PORT = process.env.PORT || 8080;
+require("./app/routes/api-routes.js")(app);
+require("./app/routes/html-routes.js")(app);
 
-app.use(bodyParser.urlencoded({ extened: true }))
-app.use(bodyParser.json())
-app.use(bodyParser.text({ type: 'text/html' }))
-
-require('./app/routes/api-routes.js')(app);
-require('./app/routes/html-routes.js')(app);
-
-app.listen(PORT, function() {
-    console.log('App listening on port ' + PORT);
+app.listen(PORT, function () {
+  console.log("App listening on port " + PORT);
 });

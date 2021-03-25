@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<!--#
+        ╥╥  DESIGNED AND DEVELOPED BY...
+        ║║ 
+        ║║ ╓╓──╖╖ ╓╓──── ────╖╖ ╓╖ ╓╓──╖╖ ╓╓──╖╖ TM
+        ║║ ║║  ║║ ║║         ║║ ╙╜ ║║  ║║ ║║  ║║
+    ╓╓──╫╫ ╫╫──╜╜ ╙╙──╖╖ ╓╓──╫╫ ╖╖ ║║  ║║ ║║  ║║
+    ║║  ║║ ║║         ║║ ║║  ║║ ║║ ║║  ║║ ║║  ║║
+    ║║  ║║ ║║         ║║ ║║  ║║ ║║ ║║  ║║ ║║  ║║
+    ║║  ║║ ╙╙──── ────╜╜ ╙╙──╜╜ ║║ ╙╙──╫╫ ╜╜  ║║
+    ║║  ║║  HTTPS://DESAIGN.APP ║║     ║║     ╙╙ LLC
+    ╙╙──╜╜  SINCE TWENTYELEVEN  ╙╙─ ───╜╜
+            Copyright © 2021
+            ALL RIGHTS RESERVED
+            --
+            Call: 1-860-DESAIGN
+            Mail: MEET@DESAIGN.STUDIO
+            Post: PO BOX 200001, AUSTIN TX 78720
+            --
+            Book an appointment with us at
+            https://calendly.com/desaignstudio
+            --
+            Follow us: #desaignstudio
+#-->
+
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+
+<html class="no-js" dir="ltr" lang="en-US">
+  <!--<![endif]-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ! just for auto-refresh or redirect use the following meta tag -->
+    <!-- <meta http-equiv="refresh" content="61"> -->
+    <!-- <meta http-equiv="refresh" content="0; url=http://website.com/" /> -->
+    <!-- ! -->
+    <!--basic page needs-->
+    <meta name="author" content="Desaign Studio" />
+    <meta name="description" content="Real Gym Pal by Desaign Studio" />
+    <meta name="keywords" content="Real Gym Pal, Friends, Gym, Pal, Together, Workout, Find, Buddy, Partner, Desaign, Studio, Digital, Creative, Agency" />
+
+    <title>Find Me? | Desaign Studio</title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="./manifest.json" />
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Real Gym Pal by Desaign Studio" />
+    <link rel="icon" sizes="192x192" href="https://desaign.app/clients/cli/images/1x/favicon.ico" />
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Real Gym Pal by Desaign Studio" />
+    <link rel="apple-touch-icon" href="https://desaign.app/clients/cli/images/1x/black.png" />
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="https://desaign.app/clients/cli/images/1x/blue.png" />
+    <meta name="msapplication-TileColor" content="#003355" />
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#003355" />
+
+    <!-- Humans Text -->
+    <link type="text/plain" rel="author" href="./humans.txt" />
+    <!-- Robots -->
+    <!-- <meta name="robots" content="noindex, nofollow" /> -->
+
+    <!-- Normalize CSS -->
+    <!-- <link rel="stylesheet" href="https://desaign.app/clients/cli/css/normalize.css" /> -->
+
+    <!-- JQuery -->
+    <script src="https://desaign.app/clients/cli/js/jquery.js" type="text/javascript"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://desaign.app/clients/cli/css/bootstrap.css" />
+    <script src="https://desaign.app/clients/cli/js/bootstrap.js" type="text/javascript"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://desaign.app/clients/cli/js/fontawesome5.js" type="text/javascript"></script>
+
+    <!-- Developer CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Main Container -->
+    <div class="mainContainer vh-100 d-flex align-items-center justify-content-center lh-lg ls-sm mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card text-center">
+              <div class="card-header">
+                <p class="fs-2 mt-3 mb-2 text-danger">Find your Real Gym Pal!</p>
+              </div>
+              <div class="card-body">
+                <div id="formBody">
+                  <form id="regForm" class="w-75 m-auto">
+                    <!-- One "tab" for each step in the form: -->
+                    <div class="tab">
+                      Personal Information: <br /><br />
+                      <p><input class="form-control form-control-lg text-center" placeholder="Your Name" name="name" id="name" type="text" /></p>
+                      <p><input class="form-control form-control-lg text-center" placeholder="Your Contact Number" name="contact" id="contact" type="text" /></p>
+                      <br />
+                    </div>
+                    <div class="tab">
+                      Facebook is the best way to send a friend request. We only share your user name to let others connect with you.<br /><br />
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon3">https://facebook.com/</span>
+                        <input type="text" class="form-control form-control-lg" id="facebook" name="facebook" aria-describedby="basic-addon3" placeholder="Your User Name" />
+                      </div>
+                      <br />
+                    </div>
+                    <div class="tab">
+                      Fitness:
+                      <p>What is your current level of fitness?</p><br>
+                      <select id="q1" class="form-select form-select-lg mb-3" name="option" required>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Week</option>
+                        <option value="2">Healthy</option>
+                        <option value="3">Not So Strong</option>
+                        <option value="4">Strong</option>
+                        <option value="5">Super Strong</option>
+                      </select><br>
+                    </div>
+                    <div class="tab">
+                      Fitness:
+                      <p>Can you hangout after workout?</p><br>
+                      <select id="q2" class="form-select form-select-lg mb-3" name="option" required>
+                        <option value="" disabled selected>Choose your fitness level</option>
+                        <option value="1">Totally</option>
+                        <option value="2">Flexible</option>
+                        <option value="3">Have to check my calendar</option>
+                        <option value="4">No time</option>
+                        <option value="5">I am not that kind of person!</option>
+                      </select><br>
+                    </div>
+                    <div class="tab">
+                      Goals:
+                      <p>What is your goal to achive?</p><br>
+                      <select id="q3" class="form-select form-select-lg mb-3" name="option" required>
+                        <option value="" disabled selected>Choose your goal</option>
+                        <option value="1">Lower body fat percentage</option>
+                        <option value="2">Get stronger</option>
+                        <option value="3">Master a skill</option>
+                        <option value="4">Make fitness a part of my routine</option>
+                        <option value="5">Train for an event</option>
+                      </select><br>
+                    </div>
+                    <div class="tab">
+                      Calendar:
+                      <p>Days you want to go to gym?</p><br>
+                      <select id="q4" class="form-select form-select-lg mb-3" name="option" required>
+                        <option value="" disabled selected>Choose when do you workout</option>
+                        <option value="1">Everyday</option>
+                        <option value="2">Every Other Day</option>
+                        <option value="3">Weekdays</option>
+                        <option value="4">Weekend</option>
+                        <option value="5">I have to check my calendar</option>
+                      </select><br>
+                    </div>
+                    <div class="tab">
+                      Time:
+                      <p>What is the best time is good for you?</p><br>
+                      <select id="q5" class="form-select form-select-lg mb-3" name="option" required>
+                        <option value="" disabled selected>Choose your Time</option>
+                        <option value="1">Early Morning</option>
+                        <option value="2">Morning</option>
+                        <option value="3">Lunch Time</option>
+                        <option value="4">Evening</option>
+                        <option value="5">Anytime</option>
+                      </select><br>
+                    </div>
+                    <div class="tab">
+                      Commitment:
+                      <p>How sincere are you?</p><br>
+                      <select id="q6" class="form-select form-select-lg mb-3" name="option" required>
+                        <option value="" disabled selected>Choose commitment</option>
+                        <option value="1">Do or Die</option>
+                        <option value="2">Very Sincere</option>
+                        <option value="3">Be there</option>
+                        <option value="4">Try my best</option>
+                        <option value="5">More for fun</option>
+                      </select><br>
+                    </div>
+                    <div class="tab">
+                      Exercise Type:
+                      <p>What kind of fitness exercise are you more interested of?</p><br>
+                      <select id="q7" class="form-select form-select-lg mb-3" name="option" required>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Aerobic exercise</option>
+                        <option value="2">Strength exercise</option>
+                        <option value="3">Balance exercise</option>
+                        <option value="4">Flexibility exercise</option>
+                        <option value="5">All of the above</option>
+                      </select><br>
+                    </div>
+                    <div class="tab">
+                      Exercise Level:
+                      <p>What kind of intensity are you looking for?</p><br>
+                      <select id="q8" class="form-select form-select-lg mb-3" name="option" required>
+                        <option value="" disabled selected>Choose your level option</option>
+                        <option value="1">Gauging</option>
+                        <option value="2">Overexerting</option>
+                        <option value="3">Moderate</option>
+                        <option value="4">Normal</option>
+                        <option value="5">Low</option>
+                      </select><br>
+                    </div>
+                    <div class="tab">
+                      Prefere Exercise:
+                      <p>Which exercise is your first choice?</p><br>
+                      <select id="q9" class="form-select form-select-lg mb-3" name="option" required>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Cardio</option>
+                        <option value="2">Aerobic</option>
+                        <option value="3">Free Weights</option>
+                        <option value="4">Weight Machines</option>
+                        <option value="5">Yoga</option>
+                      </select><br>
+                    </div>
+                    <div class="tab">
+                      Prefere Exercise:
+                      <p>Which exercise is your second choice?</p><br>
+                      <select id="q0" class="form-select form-select-lg mb-3" name="option" required>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Cardio</option>
+                        <option value="2">Aerobic</option>
+                        <option value="3">Free Weights</option>
+                        <option value="4">Weight Machines</option>
+                        <option value="5">Yoga</option>
+                      </select><br>
+                    </div>
+                    <div class="tab">
+                      All done!
+                      <p>Review once again before you submit!</p><br>
+                    </div>
+                    <div class="tab">
+                      <p>Choose your option. Restart or find your best pal!</p><br>
+                    </div>
+
+                    <div style="overflow: auto">
+                      <div class="d-flex justify-content-around">
+                        <button class="btn btn-secondary" type="button" tabindex="-1" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                        <button class="btn btn-success" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                        <button class="btn btn-secondary" tabindex="-1" type="button" id="restart" onclick="location.href = '/info';">Restart</button>
+                        <button class="btn btn-primary" type="button" id="submit" onclick="submit">Submit</button>
+                      </div>
+                    </div>
+                    <!-- Circles which indicates the steps of the form: -->
+                    <div style="text-align: center; margin-top: 40px">
+                      <span class="step"></span>
+                      <span class="step"></span>
+                      <span class="step"></span>
+                      <span class="step"></span>
+                      <span class="step"></span>
+                      <span class="step"></span>
+                      <span class="step"></span>
+                      <span class="step"></span>
+                      <span class="step"></span>
+                      <span class="step"></span>
+                      <span class="step"></span>
+                      <span class="step"></span>
+                      <span class="step"></span>
+                    </div>
+                  </form>
+                </div>
+
+                <div id="showResult" style="display: none">
+                  <h1 style="text-align: center">Your Best Pal</h1>
+                  <hr />
+                  <h3>Name: <span id="matchName" class="text-danger"></span></h3>
+                  <h3>https://www.facebook.com/<span id="matchFacebook" class="text-danger"></span></h3>
+                  <h3>Contact: 1-<span id="matchContact" class="text-danger"></span></h3><br>
+                  <button class="btn btn-secondary" tabindex="-1" type="button" id="restart" onclick="location.href = '/info';">Restart</button>
+                </div>
+              </div>
+              <div class="card-footer text-muted">
+                <nav class="nav justify-content-center">
+                  <a class="nav-link active" href="/">Home</a>
+                  <a class="nav-link disabled" href="#">Log In</a>
+                  <a class="nav-link disabled" href="#">Sign Up</a>
+                  <a class="nav-link" href="https://facebook.com/" target="_blank">Facebook</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark mt-5 ps-3">
+      <a class="navbar-brand" href="https://desaign.app" style="font-size: 1rem !important">POWERED BY <span class="text-warning">DESAIGN.STUDIO</span></a>
+    </nav>
+
+    <!-- Developer JavaScripts -->
+    <script src="./script.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -50,6 +50,10 @@ package.json
 
 Please read [CONTRIBUTING](https://github.com/kratuvwxyz/Contributing) for details on our code of conduct, and the process for submitting pull requests to us.
 
+### Credits
+
+- https://stackoverflow.com/questions/2757973/can-i-ignore-some-website-element-when-navigating-using-the-tab-key
+
 ## CONTACT
 
 Thank you for your time and consideration. My mantra is simple, *chase perfection to catch excellence*. I hope you enjoy my work. **I'd love to hear from you.** Please email me at <a href="mailto:github@desaign.studio?Subject=Message from Github">github@desaign.studio</a>.

@@ -1,4 +1,5 @@
-var palArray = [{ "idD": "362657897-6", "Hax Color": "#7efa42", "name": "Laverna Gillbey", "facebook": "Tres-Zap", "contact": "210-669-3130", "scores": [1, 3, 4, 1, 2, 1, 5, 5, 3, 4] },
+var palArray = [
+    { "idD": "362657897-6", "Hax Color": "#7efa42", "name": "Laverna Gillbey", "facebook": "Tres-Zap", "contact": "210-669-3130", "scores": [1, 3, 4, 1, 2, 1, 5, 5, 3, 4] },
     { "idD": "333267754-3", "Hax Color": "#8ad5f9", "name": "Lonny O'Connor", "facebook": "Aerified", "contact": "678-694-8187", "scores": [1, 3, 5, 5, 5, 2, 2, 5, 2, 1] },
     { "idD": "787695225-9", "Hax Color": "#63c446", "name": "Alissa Clackson", "facebook": "Zaam-Dox", "contact": "286-729-8459", "scores": [2, 1, 1, 4, 5, 4, 2, 4, 4, 1] },
     { "idD": "259764989-X", "Hax Color": "#e0edd2", "name": "Kitti Thickins", "facebook": "Holdlamis", "contact": "167-921-7675", "scores": [1, 5, 4, 5, 3, 4, 4, 4, 1, 1] },
